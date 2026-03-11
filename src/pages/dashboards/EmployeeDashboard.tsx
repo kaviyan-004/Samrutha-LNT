@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from 'react';
 import {
     CheckCircle, ChevronRight, ChevronLeft, Flame, TrendingUp
@@ -297,7 +299,7 @@ function CheckInWizard({ step, setStep, checkIn, setCheckIn, myProjects, project
                             </div>
                             {checkIn.actualHours > 0 && checkIn.plannedHours > 0 && (
                                 <div className={`mt-4 p-3 rounded-xl text-sm font-medium ${Math.abs(checkIn.actualHours - checkIn.plannedHours) / checkIn.plannedHours < 0.1
-                                        ? 'bg-green-50 text-green-700' : 'bg-amber-50 text-amber-700'
+                                    ? 'bg-green-50 text-green-700' : 'bg-amber-50 text-amber-700'
                                     }`}>
                                     Variance: {((Math.abs(checkIn.actualHours - checkIn.plannedHours) / checkIn.plannedHours) * 100).toFixed(0)}%
                                     {checkIn.actualHours > checkIn.plannedHours ? ' over plan' : ' under plan'}

@@ -1,0 +1,40 @@
+﻿
+C:\Users\ramsu\Desktop\samrutha LNT\src\context\AuthContext.tsx
+  89:17  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\ramsu\Desktop\samrutha LNT\src\pages\dashboards\EmployeeDashboard.tsx
+    3:45   error  'Flame' is defined but never used              @typescript-eslint/no-unused-vars
+    3:52   error  'TrendingUp' is defined but never used         @typescript-eslint/no-unused-vars
+   16:7    error  'MY_TASKS' is assigned a value but never used  @typescript-eslint/no-unused-vars
+   66:61   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  181:100  error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  221:53   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  224:71   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  241:55   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  246:75   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  278:71   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  291:71   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  321:63   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  339:71   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  352:71   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  367:81   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+  423:56   error  Unexpected any. Specify a different type       @typescript-eslint/no-explicit-any
+
+C:\Users\ramsu\Desktop\samrutha LNT\src\pages\dashboards\ManagerDashboard.tsx
+  6:21  error  'tasks' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\ramsu\Desktop\samrutha LNT\src\pages\dashboards\ProjectLeadDashboard.tsx
+    2:10  error  'Clock' is defined but never used          @typescript-eslint/no-unused-vars
+    2:17  error  'AlertTriangle' is defined but never used  @typescript-eslint/no-unused-vars
+    4:5   error  'LineChart' is defined but never used      @typescript-eslint/no-unused-vars
+    4:16  error  'Line' is defined but never used           @typescript-eslint/no-unused-vars
+    5:34  error  'Cell' is defined but never used           @typescript-eslint/no-unused-vars
+    5:40  error  'ReferenceLine' is defined but never used  @typescript-eslint/no-unused-vars
+  201:66  error  Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+
+C:\Users\ramsu\Desktop\samrutha LNT\src\pages\dashboards\UnitHeadDashboard.tsx
+  2:25  error  'TrendingUp' is defined but never used  @typescript-eslint/no-unused-vars
+  5:5   error  'Cell' is defined but never used        @typescript-eslint/no-unused-vars
+
+Γ£û 27 problems (27 errors, 0 warnings)
+

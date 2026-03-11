@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Bell, Moon, Sun, User, Shield } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 

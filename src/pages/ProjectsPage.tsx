@@ -1,7 +1,5 @@
-import React from 'react';
 import { projects, tasks, engineers } from '../data/mockData';
 import StatusBadge from '../components/StatusBadge';
-import AnimatedCounter from '../components/AnimatedCounter';
 import { useAuth } from '../context/AuthContext';
 
 export default function ProjectsPage() {
